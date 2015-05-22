@@ -24,4 +24,8 @@ gems:
   -jekyll-feed
   -jekyll-smartify
   -jekyll-redirect-from
-  -rmagick
+  -bourbon
+  -neat
+  -bitters
+  -compass
+
