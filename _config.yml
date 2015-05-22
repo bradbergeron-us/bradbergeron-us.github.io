@@ -11,3 +11,10 @@ github_username:  bradbergeron-us
 
 # Build settings
 markdown: kramdown
+
+# Gem Dependencies
+gems:
+  -jekyll-autolink_email
+  -jekyll-compass
+  -mini_magick
+  -github-pages
