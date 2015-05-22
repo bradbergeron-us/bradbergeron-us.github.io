@@ -86,7 +86,7 @@ module Jekyll
               :sass_dir => '_compass',
               :css_dir => 'css',
               :images_dir => 'images',
-              :javascripts_dir => 'javascripts',
+              :javascripts_dir => 'js',
           })
         end
 

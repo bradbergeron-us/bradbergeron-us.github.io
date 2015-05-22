@@ -10,7 +10,8 @@ twitter_username: babergeron
 github_username:  bradbergeron-us
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+pygments: true
 
 # Gem Dependencies
 gems:
@@ -18,3 +19,9 @@ gems:
   -jekyll-compass
   -mini_magick
   -github-pages
+  -jekyll-sitemap
+  -jekyll-paginate
+  -jekyll-feed
+  -jekyll-smartify
+  -jekyll-redirect-from
+  -rmagick

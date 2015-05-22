@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 gem 'github-pages'
+gem 'compass'
 gem 'jekyll-compass'
 gem 'mini_magick'
 gem 'jekyll-autolink_email'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+gem 'jekyll-feed'
+gem 'jekyll-redirect-from'
+gem 'jekyll-smartify'
+gem "bourbon"
+gem "neat"
+gem "bitters"
