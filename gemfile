@@ -12,3 +12,4 @@ gem 'jekyll-smartify'
 gem "bourbon"
 gem "neat"
 gem "bitters"
+gem "octopress-social"
