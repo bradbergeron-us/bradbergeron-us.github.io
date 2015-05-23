@@ -1,16 +1,16 @@
 # Site settings
 title: Providing Proof Blog
 email: bergeron.bradley@gmail.com
-description:>"Programming blog and portfolio site demonstrating my passion, skills, and some projects. Helping reinforce my expanding
+description: "Programming blog and portfolio site demonstrating my passion, skills, and some projects. Helping reinforce my expanding
 knowledge and provide a reference for when I need reminding."
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: babergeron
 github_username:  bradbergeron-us
 
 # Build settings
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 # Gem Dependencies
 gems:
