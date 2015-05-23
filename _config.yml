@@ -4,7 +4,7 @@ email: bergeron.bradley@gmail.com
 description: "Programming blog and portfolio site demonstrating my passion, skills, and some projects. Helping reinforce my expanding
 knowledge and provide a reference for when I need reminding."
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://bradbergeron-us.github.io" # the base hostname & protocol for your site
 twitter_username: babergeron
 github_username:  bradbergeron-us
 
