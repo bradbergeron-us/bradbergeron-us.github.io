@@ -1,5 +1,6 @@
 # Site settings  Reference: http://jekyllrb.com/docs/configuration/
 # Build settings
+gems: [sass, bourbon, neat, bitters, refills]
 markdown: redcarpet
   extensions:
     - no_intra_emphasis
@@ -11,11 +12,10 @@ markdown: redcarpet
 
 #Meta-Data
 title: "Soul Searching Code Scratchpad"
-email: "bergeron.bradley@gmail.com"
 description: "Programming blog and portfolio site demonstrating my passion, skills, and some projects. Helping reinforce my expanding
 knowledge and provide a reference for when I need reminding."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bradbergeron-us.github.io" # the base hostname & protocol for your site
+baseurl: bradbergeron-us.github.io # the subpath of your site, e.g. /blog/
+url: # the base hostname & protocol for your site
 twitter_username: "babergeron"
 github_username:  "bradbergeron-us"
 highlighter: pygments
@@ -30,7 +30,7 @@ assets:
     - _assets/posts
   css_compressor: sass
   js_compressor:  uglifier
-  cache:          true
+  cachebust: soft
 
 tags:
   template: _layouts/archive
@@ -40,27 +40,3 @@ categories:
 
 archives:
   template: _layouts/archive
-
-# Exclude:
-# - Gemfile
-# - Gemfile.lock
-# - Rakefile
-# - .gitignore
-
-# Gem Dependencies
-# gems:
-#   -jekyll-autolink_email
-#   -jekyll-compass
-#   -mini_magick
-#   -github-pages
-#   -jekyll-sitemap
-#   -jekyll-paginate
-#   -jekyll-feed
-#   -jekyll-smartify
-#   -jekyll-redirect-from
-#   -bourbon
-#   -neat
-#   -bitters
-#   -compass
-#   -octopress-social
-
