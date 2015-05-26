@@ -1,8 +1,9 @@
 # Virtuous Sourcecode Scratchpad 
-Personal blog and screencasts where I will be diving into the pulsing repositiories and trying to find practical uses for real world applications.
+
+####Personal blog and screencasts where I will be diving into the pulsing repositiories and trying to find practical uses for real world applications.
 
 ##Tools Used to Construct this Setup.
-- [Jekyll](http://jekyllrb.com)-
+- [Jekyll](http://jekyllrb.com),
 - [Normalize.css](http://necolas.github.io/normalize.css/), a modern alternative to CSS resets
 - [Bourbon](http://bourbon.io), a simple and lightweight mixin library for [Sass](http://sass-lang.com),
 - [Neat](http://neat.bourbon.io), a lightweight and semantic grid framework for [Sass](http://sass-lang.com) and [Bourbon](http://bourbon.io),
