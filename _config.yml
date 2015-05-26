@@ -2,7 +2,7 @@
 # Build settings
 gems: [sass, bourbon, neat, bitters, refills]
 markdown: redcarpet
-  extensions: extensions: ["smart", "autolink", "tables", "no_intra_emphasis", "strikethrough", "underline", "quote", "footnotes"]
+  extensions: ["smart", "autolink", "tables", "no_intra_emphasis", "strikethrough", "underline", "quote", "footnotes"]
 
 #Meta-Data
 title: "Virtuous Source Scratchpad"
