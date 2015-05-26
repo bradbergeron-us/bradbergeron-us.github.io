@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bradbergeron-us/bradbergeron-us.github.io.svg)
+Build Status:
 
 # My Sourcecode Scratchpad
 
