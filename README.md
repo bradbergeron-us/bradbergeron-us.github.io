@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bradbergeron-us/bradbergeron-us.github.io.svg)
+
 # My Sourcecode Scratchpad
 
 #####**Personal blog/journal to share my experience as a young developer who is on the cutting-edge of the repositiories with the highest pulse rate. I browse source and interpolate practical uses for real world software applications.**
