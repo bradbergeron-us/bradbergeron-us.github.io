@@ -5,6 +5,8 @@ var browserSync   = require('browser-sync');
 var del           = require('del');
 var jshintStylish = require('jshint-stylish');
 var sass          = require('gulp-ruby-sass');
+var haml          = require('gulp-haml');
+
 var $             = require('gulp-load-plugins')();
 
 var basePath = {
@@ -89,7 +91,7 @@ gulp.task('default', function() {
     },
     notify: false
   });
-  gulp.watch(['*.html', '*.md', '_layouts/*.html', '_includes/*.html', '_posts/*', '_config.yml'], ['jekyllRebuild', browserSync.reload]);
+  gulp.watch(['*.html', '*.haml', '*.md', '_layouts/*.html', '_includes/*.html', '_posts/*', '_config.yml'], ['jekyllRebuild', browserSync.reload]);
   gulp.watch(srcAssets.styles + '**/*', ['injectStyles']);
   gulp.watch(srcAssets.scripts + '*', ['injectScripts']);
   gulp.watch(srcAssets.vendorScripts + '**/*', ['injectVendorScripts']);
