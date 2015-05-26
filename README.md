@@ -1,6 +1,6 @@
 # My Sourcecode Scratchpad 
 
-#####**Personal blog and screencasts where I will be diving into the pulsing repositiories and trying to find practical uses for real world applications.**
+#####**Personal blog/journal to share my experience as a young developer who is on the cutting-edge of the repositiories with the highest pulse rate. I browse source and interpolate practical uses for real world software applications.**
 
 ##Tools Used to Construct this Setup.
 - [Jekyll](http://jekyllrb.com), Static Site Builder written in Ruby.
