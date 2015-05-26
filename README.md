@@ -1,5 +1,5 @@
-# Software
-My Jekyll-Blog (Bourbon-Neat-Gulp)
+# Virtuous Sourcecode Scratchpad 
+Personal blog and screencasts where I will be diving into the pulsing repositiories and trying to find practical uses for real world applications.
 
 ##Description
 [Jekyll](http://jekyllrb.com)-
