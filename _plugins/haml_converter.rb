@@ -1,4 +1,3 @@
-
 module Jekyll
   class HamlConverter < Converter
     safe true
@@ -26,3 +25,4 @@ module Jekyll
       engine.render
     end
   end
+end

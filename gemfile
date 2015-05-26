@@ -1,22 +1,20 @@
 source 'https://rubygems.org'
 #Static Site Builder
 gem 'jekyll'
-
+#Hosting
+gem 'github-pages'
+# jekyll friends
+gem 'jekyll-assets'
+gem 'jekyll-haml'
 #Automation
 gem 'tmuxinator'
 gem 'json'
 gem 'thor'
 gem 'launchy'
-
-#Hosting
-gem 'github-pages'
-
 #Pre-Processing
-gem 'jekyll-assets'
-gem 'jekyll-haml'
 gem 'sass'
+gem 'uglifier'
 gem 'coffee-script'
-
 #Styling
 gem 'bourbon'
 gem 'neat'

@@ -1,7 +1,6 @@
-_site
-.DS_Store
-.sass-cache
 node_modules
 js/lib
-_publish
 test/screenshots
+.sass-cache
+/build/
+_site
