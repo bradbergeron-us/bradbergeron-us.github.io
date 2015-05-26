@@ -1,0 +1,61 @@
+// Basic settings for typography, using Bourbon font-family addon
+$sans-serif: $helvetica;
+$serif: $georgia;
+$base-font-family: $sans-serif;
+$header-font-family: $base-font-family;
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: $base-background-color;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $unitless-line-height;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  line-height: $header-line-height;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: $base-font-size * 2.5;
+}
+
+h2 {
+  font-size: $base-font-size * 2.25;
+}
+
+h3 {
+  font-size: $base-font-size * 2;
+}
+
+h4 {
+  font-size: $base-font-size * 1.75;
+}
+
+h5 {
+  font-size: $base-font-size * 1.5;
+}
+
+h6 {
+  font-size: $base-font-size * 1.25;
+}
+
+a {
+  @include transition(color 0.1s linear);
+  color: $base-link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $hover-link-color;
+  }
+
+  &:active, &:focus {
+    color: $hover-link-color;
+    outline: none;
+  }
+}

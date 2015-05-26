@@ -2,40 +2,24 @@
 # Build settings
 gems: [sass, bourbon, neat, bitters, refills]
 markdown: redcarpet
-extensions:
-    - no_intra_emphasis
-    - fenced_code_blocks
-    - autolink
-    - strikethrough
-    - superscript
-    - smart
+  extensions: extensions: ["smart", "autolink", "tables", "no_intra_emphasis", "strikethrough", "underline", "quote", "footnotes"]
 
 #Meta-Data
-title: "Soul Searching Code Scratchpad"
+title: "Virtuous Source Scratchpad"
 description: "Programming blog and portfolio site demonstrating my passion, skills, and some projects. Helping reinforce my expanding
 knowledge and provide a reference for when I need reminding."
-baseurl: bradbergeron-us.github.io # the subpath of your site, e.g. /blog/
-url: # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/
+url: "bradbergeron-us.github.io"  # the base hostname & protocol for your site
 twitter_username: "babergeron"
 github_username:  "bradbergeron-us"
 kramdown:
   input: GFM
 
-assets:
-  sources:
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/posts
-  css_compressor: sass
-  js_compressor:  uglifier
-  cachebust: soft
-
-tags:
-  template: _layouts/archive
-
-categories:
-  template: _layouts/archive
-
-archives:
-  template: _layouts/archive
+# tags:
+#   template: _layouts/archive
+#
+# categories:
+#   template: _layouts/archive
+#
+# archives:
+#   template: _layouts/archive
