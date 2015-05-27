@@ -5,7 +5,7 @@ rvm:
 
 install: bundle install
 # Assume bundler is being used, install step will run `bundle install`.
-script: /bin/proof.sh
+script: proof.sh
 branches:
   only:
     - gh-pages
