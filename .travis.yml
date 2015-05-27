@@ -5,10 +5,8 @@ rvm:
 
 install: bundle install
 # Assume bundler is being used, install step will run `bundle install`.
-script: proof.sh
+script: jekyll build --safe
 branches:
   only:
     - gh-pages
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
