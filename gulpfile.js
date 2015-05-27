@@ -3,10 +3,7 @@ var gutil         = require('gulp-util');
 var cp            = require('child_process');
 var browserSync   = require('browser-sync');
 var del           = require('del');
-var jshintStylish = require('jshint-stylish');
 var sass          = require('gulp-ruby-sass');
-var haml          = require('gulp-haml');
-
 var $             = require('gulp-load-plugins')();
 
 var basePath = {
