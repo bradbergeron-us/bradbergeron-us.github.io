@@ -1,3 +1,6 @@
+before_install:
+  - gem update --system
+  - gem --version
 language: ruby
 cache: bundler
 rvm:
@@ -5,5 +8,5 @@ rvm:
 
 install: bundle install
 # Assume bundler is being used, install step will run `bundle install`.
-script: jekyll build
+script: bundle exec jekyll serve
 
