@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/bradbergeron-us/bradbergeron-us.github.io.svg)](https://travis-ci.org/bradbergeron-us/bradbergeron-us.github.io)
+[![Dependency Status](https://gemnasium.com/bradbergeron-us/bradbergeron-us.github.io.svg)](https://gemnasium.com/bradbergeron-us/bradbergeron-us.github.io)
 
 # My Sourcecode Scratchpad
 
